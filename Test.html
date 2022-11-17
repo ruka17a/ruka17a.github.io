@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.google.com/">
+    <link href="https://fonts.google.com/specimen/Raleway?query=raleway">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark" aria-current="page" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark" aria-current="page" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark" aria-current="page" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- hero -->
+<div id="hero" class="container d-flex flex-column align-items-center justify-content-center">
+  <img src="./assets/image- hero.jpg" class="image-hero rounded-circle" alt="">
+  <img src="nrl.jpg" class="nrl rounded-circle" alt="Nurul">
+  <h1 class="title fw-bold">Michael Thompson</h1>
+  <p class="subtitle">website developer</p>
+  <i class="bi bi-arrow-down"></i>
+</div>
+
+<!-- about me -->
+<div id="about" class="container mb-5">
+  <h2 class="text-center mb-3">About Me</h2>
+  <div class="row">
+    <div class="col-6">
+      <img src="nrl.jpg" class="shadow rounded w-100" alt="">
+    </div>
+    <div class="col-6">
+      <p class="text-about text-secondary lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fuga sapiente repudiandae! Nulla,
+         expedita labore neque natus officia nostrum ad perspiciatis in quos sapiente minima debitis, iste quam enim veniam, accusantium quo cupiditate tempore fuga. Soluta aliquid quod sapiente suscipit incidunt, 
+         vel earum odio doloremque aut ea, maxime harum, rem qui quibusdam hic veniam a ullam autem vero est voluptas. Ipsum recusandae obcaecati qui labore.
+          Atque, provident. Quas possimus optio nostrum doloremque, vero voluptates fuga ipsum quia iure a dolorem rerum error quis similique, pariatur esse. Perferendis voluptatum, soluta quos sunt, nemo harum voluptatibus iure illo, facere placeat porro perspiciatis. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempore facilis. Dolorum et molestias, distinctio dignissimos perspiciatis cumque nesciunt voluptatibus at iusto consequatur praesentium eveniet ut nulla. 
+          Praesentium enim vel porro reprehenderit placeat rerum aliquam consectetur dolorum, pariatur atque voluptatem. 
+          Facilis voluptatem obcaecati repellendus qui aperiam, quod dolor sequi.</p>
+    </div>
+  </div>
+</div>
+
+<!-- skill -->
+<div id="skill" class="container mb-5">
+  <h2 class="text-center">My Skill</h2>
+  <div class="row">
+    <div class="col-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/about-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PHP</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/about-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Web Design</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/about-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Design Thinking</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/about-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Project Management</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- contact me -->
+<div id="contact" class="container mb-5">
+  <h2 class="text-center mb-3">Contact Me</h2>
+  <form class="col-6 mx-auto">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Email address</label>
+        <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="button" class="btn btn-primary w-100">Submit</button>
+    </form>
+  </form>
+</div>
+
+<!-- footer -->
+<div class="container-fluid">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></svg></a></li>
+    </ul>
+  </footer>
+</div>
+
+  </body>
+  
+</html>
+
