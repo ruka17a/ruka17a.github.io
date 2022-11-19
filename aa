@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   
+    <style>
+    
+    .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+
+        .cihuy {
+            font-size: medium;
+            
+            width: 500px;
+            padding: 5px;
+            text-align: justify;
+            border: 2px solid rgb(195, 18, 18);
+        }
+       </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" aria-current="page" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" aria-current="page" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" aria-current="page" href="#AcademicHistory">Academic History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" aria-current="page" href="#Get in Touch!">Get in Touch!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+      Nurul Atika</h1>
+      
+        <img src="nrl.jpg" alt="Nurul" width="250" height="340">
+        <div id="about" class="container mb-5">
+          <h2 class="text-center mb-3">About Me</h2>
+          <div class="row">
+            <div class="col-6">
+              </div>
+              <p class="cihuy"> I am majoring in Business Management, focusing on Financial Management in Brawijaya University.I aim to attain an engaging internship position in the fields of business management. Highly interested in public relations, corporate and personal budgeting, investment, translation, etc.</p>
+
+      <div id="skills" class="container mb-5">
+              <h2 class="text-center mb-3">Skills</h2>
+              <div class="row">
+                <div class="col-6">
+                 </div>
+       <ol>
+            <li> Personal Financial Planning </li>
+            <li> Flexibility </li>
+            <li> Attention to Detail </li>
+            <li> Adaptability </li>
+        </ol>
+
+        <div id="AcademicHistory" class="container mb-5">
+          <h2 class="text-center mb-3,">Academic History</h2>
+          <div class="row">
+            <div class="col-6">
+             </div>
+        <ul> 
+            <li> 2013 - 2016: SMP Mutiara Harapan </li> 
+            <li> 2016 - 2019: SMA Mutiara Harapan </li>
+            <li> 2019 - Now : Brawijaya University </li>
+        </ul>
+
+        <div id="Get in Touch!" class="container mb-5">
+          <h2 class="text-center mb-3">Get in Touch!</h2>
+          <div class="row">
+            <div class="col-6">
+             </div>
+             <p><a href="https://www.linkedin.com/in/nurul17a"> Linked In </a></p> 
+             <p><a href="https://instagram.com/nurul17a?igshid=YmMyMTA2M2Y="> Instagram </a></p>
+
+  </body>
+</html>
